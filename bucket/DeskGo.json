@@ -3,11 +3,8 @@
     "version": "3.3.1477",
     "description": "腾讯桌面整理",
     "homepage": "https://www.wolai.com/",
-    "url": "https://webcdn.m.qq.com/spcmgr/download/DeskGo_3_3_1477_127_lite.exe#/DeskGo.exe",
-    "hash": "38f11f547d16ad7657eef04f9c676ddfc459eb85779dc631548a7fb226fe0db7",
-    "installer": {
-        "file": "DeskGo.exe"
-    },
+    "url": "https://github.com/EagleFlyInSky/scoop-eagle/releases/download/init/DeskGo.7z#/dl.7z",
+    "hash": "c7be068d53a1991ce3a96d183a759fea766b9a7f48572019e0ea7b064816fdf4",
     "shortcuts": [
         [
             "DesktopMgr64.exe",
