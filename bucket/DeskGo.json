@@ -1,0 +1,18 @@
+{
+    "$schema": "https://github.com/lukesampson/scoop/blob/master/schema.json",
+    "version": "3.3.1477",
+    "description": "腾讯桌面整理",
+    "homepage": "https://www.wolai.com/",
+    "url": "https://webcdn.m.qq.com/spcmgr/download/DeskGo_3_3_1477_127_lite.exe#/dl.7z",
+    "hash": "26b99d5e020dcdc7df22063580a76fd968b35be15df770d8d57039eca9f57c97",
+    "pre_install": [
+        "7z x \"$dir\\`$PLUGINSDIR\\app-64.7z\" -o\"$dir\"",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse"
+    ],
+    "shortcuts": [
+        [
+            "DesktopMgr64.exe",
+            "腾讯桌面整理"
+        ]
+    ]
+}

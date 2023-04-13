@@ -1,0 +1,19 @@
+{
+    "##": "scoop 包管理 wolai 安装",
+    "$schema": "https://github.com/lukesampson/scoop/blob/master/schema.json",
+    "version": "1.2.7",
+    "description": "你熟悉的创作方式，现已如虎添翼",
+    "homepage": "https://www.wolai.com/",
+    "url": "https://cdn.wostatic.cn/dist/installers/wolai%20Setup%201.2.7.exe#/dl.7z",
+    "hash": "62435a6c3385dd9633c5bc078d501d30575fc0f14963cb500ab5ca6870f53550",
+    "pre_install": [
+        "7z x \"$dir\\`$PLUGINSDIR\\app-64.7z\" -o\"$dir\"",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse"
+    ],
+    "shortcuts": [
+        [
+            "wolai.exe",
+            "wolai"
+        ]
+    ]
+}

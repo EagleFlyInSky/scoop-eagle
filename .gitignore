@@ -1,0 +1,9 @@
+*.sublime-workspace
+*~
+._*
+.history
+
+.idea
+*.iml
+
+.vscode
