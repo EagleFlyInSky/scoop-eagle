@@ -5,6 +5,7 @@
     "homepage": "https://www.wolai.com/",
     "url": "https://webcdn.m.qq.com/spcmgr/download/DeskGo_3_3_1477_127_lite.exe#/dl.7z",
     "hash": "38f11f547d16ad7657eef04f9c676ddfc459eb85779dc631548a7fb226fe0db7",
+    "innosetup":true,
     "shortcuts": [
         [
             "DesktopMgr64.exe",
