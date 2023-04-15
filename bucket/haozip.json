@@ -11,11 +11,5 @@
     },
     "uninstaller": {
         "script": "sudo cmd /c \"$dir\\☆卸载清理.bat\""
-    },
-    "shortcuts": [
-        [
-            "HaoZip.exe",
-            "好压\\HaoZip 好压"
-        ]
-    ]
+    }
 }
