@@ -1,7 +1,7 @@
 {
     "##": "scoop 包管理 wolai 安装",
     "$schema": "https://github.com/lukesampson/scoop/blob/master/schema.json",
-    "version": "1.2.10",
+    "version": "1.2.11",
     "description": "你熟悉的创作方式，现已如虎添翼",
     "homepage": "https://www.wolai.com/",
     "url": "https://cdn.wostatic.cn/dist/installers/wolai%20Setup%201.2.11.exe#/dl.7z",
